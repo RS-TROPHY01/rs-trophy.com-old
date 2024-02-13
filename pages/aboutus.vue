@@ -17,7 +17,12 @@ useSeoMeta({
 </script>
 <template>
   <div>
-    <img src="/panel/hero_section.webp" alt="logo" title="logo" class="z-10 w-full rounded" />
+    <img
+      src="/panel/hero_section.webp"
+      alt="logo"
+      title="logo"
+      class="z-10 w-full rounded"
+    />
     <div class="w-full px-6 mb-10 lg:mb-0">
       <div class="pl-4 mb-6 border-l-4 border-blue-500">
         <h1 class="text-sm uppercase m-2">เกี่ยวกับเรา ?</h1>
