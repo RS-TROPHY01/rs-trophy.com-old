@@ -36,8 +36,8 @@ export default {
     return {
       links: [
         { text: "หน้าแรก", href: "/" },
-        { text: "ถ้วยรางวัล", href: "https://www.rs-trophy.com/" },
-        { text: "เกี่ยวกับเรา", href: "https://www.rs-trophy.com/aboutus" },
+        { text: "ถ้วยรางวัล", href: "/product" },
+        { text: "เกี่ยวกับเรา", href: "/aboutus" },
         { text: "บทความ", href: "/blog" },
       ],
     };
