@@ -31,7 +31,7 @@ useSeoMeta({
       }"
       v-slot="{ list }"
     >
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
         <div
           v-for="blog in list"
           :key="blog._path"
@@ -51,7 +51,6 @@ useSeoMeta({
             <h2 class="text-2xl font-bold">
               <NuxtLink :to="'/blog/' + blog.slug">{{ blog.title }}</NuxtLink>
             </h2>
-            <p>{{ blog.description }}</p>
             <div class="mx-auto">
               <NuxtLink :to="'/blog/' + blog.slug"
                 ><button>ดูเพิ่มเติม</button></NuxtLink
